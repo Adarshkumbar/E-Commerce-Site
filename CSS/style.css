@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: #2874f0;
+    height: 12vh;
+    color: azure;
+    font-family: 'Climate Crisis', cursive;
+}
+nav ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 12vh;
+}
+nav ul li{
+    list-style: none;
+    padding: 80px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover{
+    size: 2px;
+    color: rgb(96, 194, 119);
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search-input{
+    width: 493px;
+    height: 23px;
+    border-radius: 5px;
+    margin: 0 30px;
+}
+.btn{
+    columns: white;
+    background:#2874f0 ;
+    padding:5px 10px;
+    border: 2px white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container{
+    min-height:76vh;
+}
+footer{
+    background: #2874f0;
+    height: 12vh;
+    color: azure;
+    font-family: 'Climate Crisis', cursive;
+}

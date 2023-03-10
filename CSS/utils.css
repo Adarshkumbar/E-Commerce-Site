@@ -1,0 +1,7 @@
+/* This is for utility class CSS */
+.flex-all-center{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
