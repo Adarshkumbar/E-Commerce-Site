@@ -25,10 +25,11 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    transition: 0.4s, 0.4s;
 }
 nav ul li a:hover{
-    size: 2px;
-    color: rgb(96, 194, 119);
+    color: blue;
+    margin: 10%;
 }
 nav{
     display: flex;
@@ -58,39 +59,82 @@ nav{
   /* Darker background on mouse-over */
  .btn:hover {
     background-color: RoyalBlue;
+    width: 2%;
   }
 .container{
     min-height:76vh;
 }
 .cart{
+    text-decoration:none;
+    color: white;
     display: flex;
     font-family:'Climate Crisis', cursive ;
     margin:0 0 25px 97px;
     cursor: pointer;
+    transform: 0.3s,0.3s;
 }
 .cart i{
     height: 10px;
+}
+.cart i:hover{
+    color: rgb(29, 178, 208);
 }
 .slider{
     display: flex;
     justify-content: center;
 }
-.card{
-    
+.slider :hover{
+    width: 1420px;
+    height: auto;
+    cursor: pointer;
 }
+/* .card{
+    margin: ;
+} */
 .cards{
     display: flex;
     justify-content: center;
     overflow: hidden;
 }
-.card-item ima{
+/* .card-item{
     display: flex;
-    border: 0 5px 0 5px;
+    margin: 0 5px 0 5px;
+} */
+.im{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    cursor: pointer;
+    margin:0 8px 0 8px ;
+    transition: 0.3s ;
 }
-
+.card-item .im :hover{
+    /* height: 255px;
+    width: 305px;
+    margin-left: 5px;
+    margin-bottom: 5px; */
+    transform: scale(1.1);
+}
+.lines{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.more
+{
+    position: relative;
+    justify-content: center;
+    text-decoration:solid;
+    font-size: large;
+    left: 144px;
+}
 footer{
     background: #2874f0;
     height: 12vh;
     color: azure;
     font-family: 'Climate Crisis', cursive;
+    cursor: pointer;
+}
+footer :hover{
+    color: blue;
 }
