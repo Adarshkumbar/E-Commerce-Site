@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
-header{
+
+header {
     background: #2874f0;
     height: 12vh;
     width: 100vw;
@@ -12,40 +13,48 @@ header{
     font-family: 'Climate Crisis', cursive;
     position: fixed;
 }
-nav ul{
+
+nav ul {
     display: flex;
     /* justify-content: center; */
     align-items: center;
     height: 12vh;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     padding: 40px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     transition: 0.4s, 0.4s;
 }
-nav ul li a:hover{
-    color: blue;
+
+nav ul li a:hover {
+    color: green;
     margin: 10%;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
 }
-.search{
+
+.search {
     display: flex;
     align-items: center;
 }
-.search input{
+
+.search input {
     width: 493px;
     height: 23px;
     border-radius: 5px;
     margin: 0 0 0 30px;
     padding: 0;
 }
+
 .btn {
     background-color: DodgerBlue;
     border: none;
@@ -54,87 +63,106 @@ nav{
     font-size: 16px;
     cursor: pointer;
     border-radius: 22px;
-  }
-  
-  /* Darker background on mouse-over */
- .btn:hover {
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
     background-color: RoyalBlue;
     width: 2%;
-  }
-.container{
-    min-height:76vh;
 }
-.cart{
-    text-decoration:none;
+
+.container {
+    min-height: 76vh;
+}
+
+.cart {
+    text-decoration: none;
     color: white;
     display: flex;
-    font-family:'Climate Crisis', cursive ;
-    margin:0 0 25px 97px;
+    font-family: 'Climate Crisis', cursive;
+    margin: 0 0 25px 97px;
     cursor: pointer;
-    transform: 0.3s,0.3s;
+    transform: 0.3s, 0.3s;
 }
-.cart i{
+
+.cart i {
     height: 10px;
 }
-.cart i:hover{
+
+.cart i:hover {
     color: rgb(29, 178, 208);
 }
+
+.space {
+    height: 12.1vh;
+    width: 100%;
+}
+
 .slider{
     display: flex;
     justify-content: center;
 }
-.slider :hover{
-    width: 1420px;
+
+.slider img {
+    box-shadow: 2px 2px 10px 5px #2874f0;
+}
+
+.slider :hover {
+    width: 1410px;
     height: auto;
     cursor: pointer;
 }
-/* .card{
-    margin: ;
-} */
-.cards{
+@keyframes sli{
+}
+.cards {
     display: flex;
     justify-content: center;
     overflow: hidden;
 }
+
 /* .card-item{
     display: flex;
     margin: 0 5px 0 5px;
 } */
-.im{
+.im {
     /* display: flex;
     justify-content: center;
     align-items: center; */
     cursor: pointer;
-    margin:0 8px 0 8px ;
-    transition: 0.3s ;
+    margin: 0 8px 0 8px;
+    transition: 0.3s;
 }
-.card-item .im :hover{
+
+.card-item .im :hover {
     /* height: 255px;
     width: 305px;
     margin-left: 5px;
     margin-bottom: 5px; */
     transform: scale(1.1);
 }
-.lines{
+
+.lines {
     display: flex;
     justify-content: center;
     cursor: pointer;
 }
-.more
-{
+
+.more {
     position: relative;
     justify-content: center;
-    text-decoration:solid;
+    text-decoration: solid;
     font-size: large;
     left: 144px;
 }
-footer{
+
+footer {
     background: #2874f0;
     height: 12vh;
     color: azure;
     font-family: 'Climate Crisis', cursive;
     cursor: pointer;
 }
-footer :hover{
+
+footer :hover {
     color: blue;
 }
