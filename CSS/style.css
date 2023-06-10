@@ -12,6 +12,7 @@ header {
     color: azure;
     font-family: 'Climate Crisis', cursive;
     position: fixed;
+    overflow: auto;
 }
 
 nav ul {
@@ -108,7 +109,7 @@ nav {
 }
 
 .slider :hover {
-    width: 1410px;
+    width: 1404px;
     height: auto;
     cursor: pointer;
 }
@@ -165,4 +166,6 @@ footer {
 
 footer :hover {
     color: rgb(9, 255, 0);
+    width: 100vw;
+    overflow: auto;
 }

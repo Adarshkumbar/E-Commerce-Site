@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+/* @media screen and (max-width:"1920px") {
+    
+} */
 .name{
     height: 20vh;
     width: 100%;
@@ -14,6 +17,7 @@
     align-items: center;
     font-family: 'Shojumaru', cursive;
     font-size: larger;
+    overflow: hidden;
 }
 h2{
     cursor: pointer;
@@ -144,6 +148,129 @@ h2:hover{
     font-size: larger;
     font-size:1.5em;
  }
+ @media screen and (200px < width < 420px) {
+    /* *{
+        /* background: black; */
+    /* } */ 
+    body{
+        background: rgb(249, 242, 242);
+    }
+    .back-video{
+        position: absolute;
+        top: 0px;
+        z-index: -1;
+        overflow:hidden;
+        /* width:500px ;
+        size: 500px; */
+    /* transform: rotate(180deg); */
+}
+.layout{
+    height: 50vh;
+    position: relative;
+    top: 30px;
+    display:grid;
+    /* background: limegreen; */
+    /* justify-content: center;
+    align-items: center; */
+    row-gap: 18px;grid-template-columns: auto auto  ;
+    gap: 0px;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+}
+.github{
+    width: 150px;
+    height: 150px;
+      justify-content: center;
+    /* background: red; */
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid white;
+    animation: border-change 6s linear infinite;
+}
+.github a{
+    /* position:relative; */
+    text-decoration: none;  
+    position: relative;
+    top: 43%;
+    left: 34%;
+    color: rgb(219, 13, 13);
+    font-family: 'Shojumaru', cursive;
+    font-size: larger;
+}
+
+.linkedin{
+        justify-content: center;
+    width: 150px;
+    height: 150px;
+    /* background: red; */
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid white;
+    animation: border-change 6s linear infinite;
+}
+.linkedin a{
+    text-decoration: none;  
+    position: relative;
+    top: 43%;
+    left: 27%;
+       color: rgb(219, 13, 13);
+    font-family: 'Shojumaru', cursive;
+    font-size: larger;
+}
+
+.gmail{
+        justify-content: center;
+    width: 150px;
+    height: 150px;
+    /* background: red; */
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid white;
+    animation: border-change 6s linear infinite;
+}
+.gmail a{
+    text-decoration: none;  
+    position: relative;
+    top: 43%;
+    left: 34%;
+   color: rgb(216, 27, 27);
+    font-family: 'Shojumaru', cursive;
+    font-size: larger;
+}
+
+.discord{
+   width: 150px;
+    height: 150px;
+       justify-content: center;
+    /* background: red; */
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: 2px solid white;
+    animation: border-change 6s linear infinite;
+}
+.discord a{
+    text-decoration: none;  
+    position: relative;
+    /* top: 43%;
+    left: 27%; */
+    color: rgb(216, 27, 27);
+    font-family: 'Shojumaru', cursive;
+    font-size: larger;
+
+}
+h2{
+    color: rgb(232, 188, 11);
+    cursor: pointer;
+    justify-text: center;
+    
+}
+ }
+
  @keyframes border-change {
     0%{
         border: 2px solid rgb(224, 14, 14);
